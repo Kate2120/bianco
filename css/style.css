@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #af2024;
+    height: 40px;
+    margin-bottom: 21px;
+}
+.logo {
+    max-width: 960px;
+    margin: auto;
+}
+
+body {
+    background-image: url("../images/pizza.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    background-color: #3f0002;
+
+}
+.social_icon {
+    position: fixed;
+    right: 0;
+    top: 223px;
+}
+.social_icon ul {
+    list-style-type: none;
+}
+.social_icon li {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+.social_icon a {
+    color: white;
+}
+.social_icon li:first-child {
+    background-color: #850409;
+}
+.social_icon li:nth-child(2) {
+    background-color: #98161b;
+}
+.video {
+    background-color: white;
+    width: 710px;
+    margin-top: 180px;
+    position: relative;
+    bottom: -30px;
+    left: 407px;
+
+
+}
+.video-content {
+    text-align: center;
+}
+.video-description {
+    width: 568px;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 125px;
+}
+.video-description h3 {
+    height: 32px;
+}
+.dot {
+    margin-bottom: 30px;
+}
+
+
+footer {
+    height: 454px;
+    background-color: black;
+
+}
+iframe {
+    margin-bottom: 30px;
+}
+
+.video_title {
+    padding-left: 21px;
+    color: white;
+    line-height: 70px;
+    background-color: #98161b;
+    margin-bottom: 63px;
+}
